@@ -1,0 +1,21 @@
+[package]
+name = "bevy_blackout"
+version = "0.1.0"
+authors = ["Josh Hyatt <joshua.n.hyatt@gmail.com>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A plugin for the Bevy game engine that adds third-person visibility casting"
+repository = "https://github.com/jnhyatt/bevy_blackout"
+keywords = ["gamedev", "graphics", "shader", "bevy"]
+
+[dependencies]
+bevy_app = "0.12"
+bevy_asset = "0.12"
+bevy_pbr = "0.12"
+bevy_reflect = "0.12"
+bevy_render = "0.12"
+
+[dev-dependencies]
+bevy = "0.12.1"
+glam = { version = "0.24.1", features = ["rand"] }
+rand = "0.8.5"
